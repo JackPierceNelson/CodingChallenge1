@@ -41,3 +41,20 @@ console.log("Updated Account Balance:", accountBalance); // Output: Updated Acco
 
 accountBalance %= 10; // accountBalance = acountBalance modulus 10 
 console.log("Updated Account Balance:", accountBalance); // Output: Updated Account Balance = 0.14999999999997726
+
+// Task 4: // Comparison Operators
+
+let employeeScore1 = 100;
+let employeeScore2 = 90;
+
+console.log(employeeScore1 > employeeScore2); // Is employeeScore1 greater than employeeScore2? Output = true
+
+console.log(employeeScore1 < employeeScore2); // Is employeeScore1 less than employeeScore2? Output = false
+
+console.log(employeeScore1 >= employeeScore2); // Is employeeScore1 greater than or = to employeeScore2? Output = true
+
+console.log(employeeScore1 <= employeeScore2); // Is employeeScore1 less than or = to employeeScore2? Output = false
+
+console.log(employeeScore1 === employeeScore2); // Is employeeScore1 strictly equal to employeeScore2? Output = false
+
+console.log(employeeScore1 !== employeeScore2); // Is employeeScore1 strictly not equal to employeeScore2? Output = true
