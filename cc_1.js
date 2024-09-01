@@ -1,23 +1,26 @@
 // Task 1: Variables and Data Types
 
-let employeeName = "Jack";
-const employeeID = 12;
-var isActive = true;
+let employeeName = "Jack"; // Declare a variable employeeName using let and assign it the employee's name "Jack "as a string.
+const employeeID = 12; // Declare a variable employeeID using const and assign it the employee's ID  12 as a number.
+var isActive = true; // Declare a variable isActive using var and assign it a boolean value true to indicate the employee is currently active.
 
-console.log(employeeName, typeof(employeeName));
-console.log(employeeID, typeof(employeeID));
-console.log(isActive, typeof(isActive));
+console.log(employeeName, typeof(employeeName)); // Log variable employeeName value and its type to the console
+console.log(employeeID, typeof(employeeID)); // Log variable value employeeID and its type to the console
+console.log(isActive, typeof(isActive)); // Log variable value isActive and its type to the console
 
 // Task 2: Compound Data Types
 
-let products = ["shirt", "shoes", "shorts"];
-const productDetails = {
+let products = ["shirt", "shoes", "shorts"]; // Declare an array products using let and initialize it with product names: shirt, shoes, and shorts
+
+// Declare an object productDetails using const with properties name: Jordans, price: 150, and inStock: Yes.
+
+const productDetails = { 
     name: Jordans,
     price: 150,
     inStock: Yes,
-}
+}   
 
-console.log(products, productDetails);
+console.log(products, productDetails); // logging the array and object to the console.
 
 // Task 3: Assignment Operators
 
@@ -68,4 +71,4 @@ console.log(hasKeycard && hasPermission); // Output: true -- both conditions of 
 
 console.log(hasKeycard || hasPermission); // Output: true -- both conditions of variables are true
 
-console.log(!hasKeycard); // Output: false -- nullifies the boolean value
+console.log(!hasKeycard); // Output: false -- nullifies the boolean value   
