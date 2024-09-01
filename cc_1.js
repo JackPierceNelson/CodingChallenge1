@@ -42,7 +42,7 @@ console.log("Updated Account Balance:", accountBalance); // Output: Updated Acco
 accountBalance %= 10; // accountBalance = acountBalance modulus 10 
 console.log("Updated Account Balance:", accountBalance); // Output: Updated Account Balance = 0.14999999999997726
 
-// Task 4: // Comparison Operators
+// Task 4: Comparison Operators
 
 let employeeScore1 = 100;
 let employeeScore2 = 90;
@@ -58,3 +58,14 @@ console.log(employeeScore1 <= employeeScore2); // Is employeeScore1 less than or
 console.log(employeeScore1 === employeeScore2); // Is employeeScore1 strictly equal to employeeScore2? Output = false
 
 console.log(employeeScore1 !== employeeScore2); // Is employeeScore1 strictly not equal to employeeScore2? Output = true
+
+// Task 5:  Logical Operators
+
+let hasKeycard = true; 
+let hasPermission = true;
+
+console.log(hasKeycard && hasPermission); // Output: true -- both conditions of variables are true
+
+console.log(hasKeycard || hasPermission); // Output: true -- both conditions of variables are true
+
+console.log(!hasKeycard); // Output: false -- nullifies the boolean value
