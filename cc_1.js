@@ -52,15 +52,15 @@ let employeeScore2 = 90;
 
 console.log("Is employeeScore1 greater than employeeScore2?",employeeScore1 > employeeScore2); // Is employeeScore1 greater than employeeScore2? Output = true
 
-console.log(employeeScore1 < employeeScore2); // Is employeeScore1 less than employeeScore2? Output = false
+console.log("Is employeeScore1 less than employeeScore2?", employeeScore1 < employeeScore2); // Is employeeScore1 less than employeeScore2? Output = false
 
-console.log(employeeScore1 >= employeeScore2); // Is employeeScore1 greater than or = to employeeScore2? Output = true
+console.log("Is employeeScore1 greater than or = to employeeScore2?",employeeScore1 >= employeeScore2); // Is employeeScore1 greater than or = to employeeScore2? Output = true
 
-console.log(employeeScore1 <= employeeScore2); // Is employeeScore1 less than or = to employeeScore2? Output = false
+console.log("Is employeeScore1 less than or = to employeeScore2?", employeeScore1 <= employeeScore2); // Is employeeScore1 less than or = to employeeScore2? Output = false
 
-console.log(employeeScore1 === employeeScore2); // Is employeeScore1 strictly equal to employeeScore2? Output = false
+console.log("Is employeeScore1 strictly equal to employeeScore2?", employeeScore1 === employeeScore2); // Is employeeScore1 strictly equal to employeeScore2? Output = false
 
-console.log(employeeScore1 !== employeeScore2); // Is employeeScore1 strictly not equal to employeeScore2? Output = true
+console.log("Is employeeScore1 strictly not equal to employeeScore2?", employeeScore1 !== employeeScore2); // Is employeeScore1 strictly not equal to employeeScore2? Output = true
 
 // Task 5:  Logical Operators
 
