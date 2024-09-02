@@ -50,7 +50,7 @@ console.log("Updated Account Balance:", accountBalance); // Output: Updated Acco
 let employeeScore1 = 100;
 let employeeScore2 = 90;
 
-console.log(employeeScore1 > employeeScore2); // Is employeeScore1 greater than employeeScore2? Output = true
+console.log("Is employeeScore1 greater than employeeScore2?",employeeScore1 > employeeScore2); // Is employeeScore1 greater than employeeScore2? Output = true
 
 console.log(employeeScore1 < employeeScore2); // Is employeeScore1 less than employeeScore2? Output = false
 
