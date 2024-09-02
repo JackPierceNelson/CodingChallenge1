@@ -17,7 +17,7 @@ let products = ["shirt", "shoes", "shorts"]; // Declare an array products using 
 const productDetails = { 
     name: "Jordans",
     price: 150,
-    inStock: Yes,
+    inStock: true,
 }   
 
 console.log(products, productDetails); // logging the array and object to the console.
