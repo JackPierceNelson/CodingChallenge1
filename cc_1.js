@@ -71,4 +71,4 @@ console.log("Has Key card and has permission?", hasKeycard && hasPermission); //
 
 console.log("Has Key card or has permission?", hasKeycard || hasPermission); // Output: true -- both conditions of variables are true
 
-console.log(!hasKeycard); // Output: false -- nullifies the boolean value   
+console.log("Reverse the keyCard status:", !hasKeycard); // Output: false -- nullifies the boolean value   
