@@ -15,7 +15,7 @@ let products = ["shirt", "shoes", "shorts"]; // Declare an array products using 
 // Declare an object productDetails using const with properties name: Jordans, price: 150, and inStock: Yes.
 
 const productDetails = { 
-    name: Jordans,
+    name: "Jordans",
     price: 150,
     inStock: Yes,
 }   
